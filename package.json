@@ -1,0 +1,25 @@
+{
+	"name": "post-office",
+	"version": "0.0.1",
+	"description": "a mvc framework based on express",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test/start.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hangxingliu/post-office.git"
+	},
+	"keywords": [
+		"mvc",
+		"framework",
+		"express",
+		"web",
+		"router"
+	],
+	"dependencies": {
+		"express": "~4.15.2"
+	},
+	"author": "LiuYue",
+	"license": "MIT"
+}
