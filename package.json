@@ -1,6 +1,6 @@
 {
-	"name": "post-office",
-	"version": "0.0.1",
+	"name": "express-postoffice",
+	"version": "0.0.2",
 	"description": "a mvc framework based on express",
 	"main": "index.js",
 	"scripts": {
@@ -8,7 +8,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/hangxingliu/post-office.git"
+		"url": "https://github.com/hangxingliu/express-postoffice.git"
 	},
 	"keywords": [
 		"mvc",
