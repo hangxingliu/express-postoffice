@@ -14,7 +14,7 @@
  */
 
 var app = require('../app');
-var debug = require('debug')('tmp:server');
+var debug = require('debug')('{{ name }}:server');
 var http = require('http');
 
 /**
