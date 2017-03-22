@@ -1,25 +1,36 @@
 {
-	"name": "express-postoffice",
-	"version": "0.0.2",
-	"description": "a mvc framework based on express",
-	"main": "index.js",
-	"scripts": {
-		"test": "node test/start.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hangxingliu/express-postoffice.git"
-	},
-	"keywords": [
-		"mvc",
-		"framework",
-		"express",
-		"web",
-		"router"
-	],
-	"dependencies": {
-		"express": "~4.15.2"
-	},
-	"author": "LiuYue",
-	"license": "MIT"
+  "name": "express-postoffice",
+  "version": "0.0.2",
+  "description": "a mvc style framework based on express",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/start.js"
+  },
+  "bin": {
+	  "postoffice": "./lib/generator/bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangxingliu/express-postoffice.git"
+  },
+  "keywords": [
+    "mvc",
+    "framework",
+    "express",
+    "web",
+    "router"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "debug": "^2.6.3",
+    "express": "~4.15.2",
+    "mkdirp": "^0.5.1",
+    "remove": "^0.1.5"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "author": "LiuYue",
+  "license": "MIT"
 }

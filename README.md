@@ -1,5 +1,5 @@
 # express-postoffice
 
-A MVC framework based on `express`
+A MVC style framework based on `express`
 
 **COMING SOON**
